@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
+
+*{box-sizing: border-box;}
+
+body
+
+{
+  margin: 0;
+  border: 0;
+  padding: 0;
+  width: 100%;
+  font-family: Russo One;
+  font-size: 1rem;
+
+   background-color: #191818
+}
+.access-allowed {
+  display: block;
+}
+.access-denied {
+  display: none;
+}
+
+header nav {
+  background-color: #e01818;
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  z-index: 9;
+  box-shadow: -2px -2px 5px gray, 2px 2px 5px gray;
+}
+nav {
+  overflow: hidden;
+    background-color: white;
+
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+
+}
+nav ul.ul-logo {
+  float: left;
+
+}
+nav ul.ul-menu {
+  float: right;
+  overflow: hidden;
+
+}
+nav ul li {
+
+  margin: 0;
+  padding: 15px 12px 0 12px;
+  float: left;
+  list-style-type: none;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  height: 60px;
+}
+nav ul li.logo {
+
+  background-image: url(../img/dh.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 150px;
+}
+nav ul.ul-menu {
+  margin-left: 2px;
+
+}
+nav ul li a.color-green {
+  text-decoration: none;
+  color: #191818;
+}
+nav ul li a:hover{
+	text-decoration: underline;
+}
+
+main.main {
+  background-image: img-zapas;
+}
+
+section {
+  width: 100%;
+}
+
+section.home {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+/* 1) POSICIONAMIENTO */
+  section.home article.img-container {
+    height: 100vh;
+    max-height: 700px;
+  }
+
+  section.home article.img-container div {
+    width: 100%;
+  }
+  section.home article div img {
+    width: 100%;
+    max-width: 800px;
+  }
+
+/* 1) POSICIONAMIENTO */
+
+button.button-main {
+  margin-bottom: 10%;
+}
+
+/* 2.1) PSEUDOSELECTORES */
+/* SELECTOR 2.1) {
+  opacity: 1;
+} */
+/* 2.1) PSEUDOSELECTORES */
+
+section.section-user {
+  width: 100%;
+}
+section article.article-user {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 5%;
+  overflow: hidden;
+	align-items: center;
+	justify-content: center;
+}
+article.article-user div {
+  padding: 30px;
+  float: right;
+}
+article.article-user img {
+  max-width: 250px;
+  max-height: 250px;
+}
+section div.sports{
+	display: block;
+}
+section div.hobbies{
+	display: none;
+}
+section div ul.sports-list{
+	padding: 0px;
+}
+section div ul.sports-list li{
+	list-style: none;
+	display: inline;
+	padding: 0px 15px;
+}
+section div ul.hobbies-list{
+	padding: 0px;
+}
+section div ul.hobbies-list li{
+	list-style: none;
+	display: inline;
+	padding: 0px 15px;
+}
+
+section.section-products {
+  text-align: center;
+  padding: 5% 0;
+  background-image:linear-gradient(to bottom,rgb(206, 209, 208),#97dc3e);
+}
+section.section-products h2.subtitle-products{
+	font-size: 2.5rem;
+}
+section.section-products h2.title-product {
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 26px;
+	width: 80%;
+	text-align: center;
+	margin: auto;
+}
+section div.container-products {
+  overflow: hidden;
+}
+section article.article-products {
+  float: left;
+  width: 30%;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  margin-right: 5%;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+article.article-products:nth-child(3n){
+  margin-right: 0;
+}
+section.section-products img {
+  max-width: 100%;
+}
+article.article-wow {
+  position:relative;
+}
+article p.p-wow {
+  text-align: center;
+  width: 90%;
+  margin: 0 5%;
+  border: 1px solid rgb(217, 16, 16);
+  color: rgb(217, 16, 16);
+  font-size: 2rem;
+  position: absolute;
+  top: 76px;
+  left: 1%;
+  border-radius: 40px;
+}
+article.article-products p.p-wow {
+  display: none;
+}
+article.article-wow:hover p.p-wow {
+  opacity: 1;
+}
+/****** SECTION PRODUCTS ******/
+
+/****** SECTION CONTACT ******/
+main section.contact {
+  padding: 10% 20%;
+}
+main section.contact div.contact-title {
+  overflow: hidden;
+  text-align: center;
+  padding: 25px 0 50px 0;
+}
+main section.contact div img {
+  margin-top: 30px;
+  margin-left: 22vw;
+  height: 50px;
+  width: 50px;
+  float: left;
+}
+main section.contact div h2 {
+  padding: 20px;
+  float: left;
+}
+
+/* 2.2) PSEUDOSELECTORES */
+/*
+SELECTOR 2.2 {
+  text-decoration: underline;
+}
+*/
+/* 2.2) PSEUDOSELECTORES */
+
+main section.contact form input,
+main section.contact form select,
+main section.contact form div,
+main section.contact form textarea,
+main section.contact form button {
+  width: 100%;
+  margin-bottom: 2.5%;
+  cursor:pointer;
+  font-family: Poiret One;
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-align-last: center;
+  text-align: center;
+  -ms-text-align-last: center;
+  -moz-text-align-last: center;
+}
+main section.contact form textarea {
+  padding: 10px;
+}
+/****** SECTION CONTACT ******/
+
+/****** FOOTER *******/
+footer {
+  min-height: 200px;
+  width: 100%;
+  -webkit-box-shadow: 0px -10px 9px -10px rgba(0,0,0,.8);
+  -moz-box-shadow: 0px -10px 9px -10px rgba(0,0,0,.8);
+   box-shadow: 0px -10px 9px -10px rgba(0,0,0,.8);
+}
+
+/* 3) FLOAT y 4) ESTILO */
+footer ul {
+  margin: 0 15%;
+  padding: 0;
+}
+footer ul li {
+  background-color: gainsboro;
+}
+footer a {
+}
+/* 3) FLOAT y 4) ESTILO */
+
+footer ul li {
+  list-style-type: none;
+}
+footer div {
+  margin-top: 50px;
+  text-align: center;
+}
+
+/****** CSS GENERAL ******/
+
+.color-white {
+  color: white;
+}
+.color-gray {
+  color: gray;
+}
+.color-green {
+  color: #FFFB00;
+}
+.background-orange {
+  background-color: orange;
+}
+button.cool-button {
+  cursor:pointer;
+  font-size: 1.5rem;
+  padding: 12px 20px;
+  background-color: #97dc3e;
+  color: white;
+  border: solid 2px white;
+  border-radius: 40px;
+}
+button.cool-button:hover {
+  background-color: white;
+  color: #97dc3e;
+}
+
+/****** CSS GENERAL ******/
+
+@media screen and (max-width: 420px) {
+  section.home article.img-container {
+    max-height: 100vw;
+    min-height: 300px;
+  }
+
+	section.home div.div-makeitreal {
+		top: -52vw;
+    left: 1vw;
+	}
+	section.home div.div-create {
+    top: -40vw;
+	}
+	button.button-main {
+    top: -15vw;
+    font-size: 1rem;
+    margin-bottom: 5%;
+  }
+
+  article p.p-wow {
+    top: 128px;
+    font-size: 1rem;
+  }
+
+  main section.contact div img {
+    margin-left: 0;
+  }
+
+	footer ul li.li-menu{
+		width: 100%;
+	}
+  footer ul li a:hover{
+    text-decoration: underline;
+  }
+}
+
+
+@media screen (min-width: 421px) and screen (max-width: 810px){
+	nav ul.ul-menu{
+		display: none;
+	}
+	section.home {
+
+	}
+  section.home article.img-container {
+    max-height: 100vw;
+  }
+	section.home div.div-zapas{
+
+	}
+	section.home div.div-create{
+    top: -50vw;
+	}
+	section.home div.div-makeitreal{
+		top: -55vw;
+		left: 1vw;
+	}
+	section button.cool-button {
+		top: -40vw;
+	}
+
+	section.section-whatWeDo {
+		width: 80%;
+		margin: auto;
+	}
+  article p.p-wow {
+    font-size: 1.5rem;
+  }
+
+	section.section-contact{
+		height: 100vh;
+	}
+  main section.contact div img {
+    margin-left: 0;
+  }
+	section.section-contact h2 {
+		padding-top: 30px;
+	}
+	section.section-contact form select {
+		width: 50%;
+		height: 32px;
+	}
+	section.section-contact form textarea {
+		width: 80%;
+	}
+
+	footer {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	footer ul.ul-menu {
+		padding-left: 0px;
+	}
+  footer ul li.li-menu {
+    width: 100%;
+  }
+  footer ul li a:hover {
+    text-decoration: underline;
+  }
+}
