@@ -1,7 +1,7 @@
 window.addEventListener("load", function(){
 
 var urlSearchParams = new URLSearchParams(window.location.search)
-var buscador = urlSearchParams.get('buscador')
+var buscador = urlSearchParams.get('search')
 console.log(buscador);
 
 var API_KEY = "2816f7e0d88c5c7abbd4003375fc50fe"
