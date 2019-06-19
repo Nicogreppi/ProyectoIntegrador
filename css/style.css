@@ -13,66 +13,83 @@ background-color: #151515;
 }
 
 nav div.left {
-  width:
+  width: 50%;
+  height: 100%;
 }
-nav div img.nefli {
+
+header nav div img.nefli {
 float: left;
+margin-left: 10px;
+margin-right: 5px;
+margin-top: 6px;
+border-radius: 20px;
+border-color: red;
+border-width: 1px;
 }
+
 nav div form {
   float: left;
+  margin-top: 25px;
+  margin-left: 10px;
+}
+
+nav div form input.buscar {
+  border: 1px solid black;
+}
+
+div button.logIn {
+  float: right;
   margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 30px;
+  margin-left: 20px;
+  background-color: red;
+  border-radius: 10px;
+  width: 70px;
+  height: 40px;
+  color: white;
+  border-color: white;
 }
 
 .access-allowed {
   display: block;
 }
+
 .access-denied {
   display: none;
 }
 
-header nav {
+header {
   overflow: hidden;
-  background-color: black;
+  background-color: white;
   position: fixed;
   width: 100%;
-  height: 60px;
-  z-index: 9;
-  box-shadow: -2px -2px 5px gray, 2px 2px 5px black;
-  top: -4px;
-
+  height: 80px;
+  top: 0.5px;
+  border: 2px solid red;
 }
 
-nav ul {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-
-}
 
 nav ul.ul-menu {
   float: right;
-  overflow: hidden;
-
 }
-nav ul li {
 
-  margin: 0;
+nav ul li {
   padding: 15px 12px 0 12px;
   float: left;
   list-style-type: none;
   text-transform: uppercase;
   font-size: 1.5rem;
   height: 60px;
+  margin-bottom: 35px;
 }
 
-nav ul.ul-menu {
-  margin-left: 2px;
 
-}
 nav ul li a.color-black {
   text-decoration: none;
   color: red;
 }
+
 nav ul li a:hover{
 	text-decoration: underline;
 }
@@ -90,6 +107,7 @@ section.home {
   height: 100%;
   width: 100%;
 }
+
 /* 1) POSICIONAMIENTO */
   section.home article.img-container {
     height: 100px;
@@ -99,10 +117,12 @@ section.home {
   section.home article.img-container div {
     width: 100%;
   }
+
   section.home article div img {
     width: 100%;
     max-width: 800px;
   }
+
   .Homelist {
     text-decoration: none;
     text-align: center;
