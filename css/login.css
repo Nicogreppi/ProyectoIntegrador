@@ -1,14 +1,12 @@
-*{box-sizing: border-box;}
-
-<<<<<<< Updated upstream:css/login.css
-body {
-  background-color: #151515;
-=======
 body{
-  background-color: black;
->>>>>>> Stashed changes:styles5.css
+  background-color: #151515;
 }
 
-button {
-  border-radius: 20px;
+h1{
+  color: red;
+}
+
+
+form p {
+  color: red;
 }
