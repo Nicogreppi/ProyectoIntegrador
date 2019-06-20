@@ -38,6 +38,10 @@ nav div form input.buscar {
   border: 1px solid black;
 }
 
+div button a {
+  color: white;
+  text-decoration: none;
+}
 div button.logIn {
   float: right;
   margin-top: 20px;
