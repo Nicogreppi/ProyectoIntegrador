@@ -36,6 +36,8 @@ nav div form {
 
 nav div form input.buscar {
   border: 1px solid black;
+  background-color: white;
+  border: radius
 }
 
 div button a {
