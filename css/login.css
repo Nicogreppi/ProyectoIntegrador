@@ -1,5 +1,9 @@
 *{box-sizing: border-box;}
 
-body{
+body {
   background-color: #151515;
+}
+
+button {
+  border-radius: 20px;
 }
