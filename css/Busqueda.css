@@ -115,16 +115,16 @@ section.home {
     max-height: 100px;
   }
 
-  section.home article.img-container div {
+section.home article.img-container div {
     width: 100%;
   }
 
-  section.home article div img {
+section.home article div img {
     width: 100%;
     max-width: 800px;
   }
 
-  .Homelist {
+.Homelist {
     text-decoration: none;
     text-align: center;
     color: red;
@@ -136,4 +136,31 @@ section.home {
 .nefli{
   width: 210px;
   height: 65px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 30px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  text-align: center;
+}
+
+div {
+  text-align: center;
+}
+
+section {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
 }
