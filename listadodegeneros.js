@@ -10,7 +10,7 @@ window.onload = function(){
   var id = searchParams.get("idGenero")
   var key = '2816f7e0d88c5c7abbd4003375fc50fe'
   var url
-  var urlGenero = "pelisGenero.html"
+  var urlGenero = "peliporgenero.html"
 
 
     fetch("https://api.themoviedb.org/3/genre/movie/list?api_key="+key+"&language=en-US")

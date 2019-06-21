@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Russo+One');
 *{box-sizing: border-box;}
 body {
+  position: absolute;
+  top: 70px;
   margin: 100px 0 0 0;
   border: 0;
   padding: 0;
@@ -106,6 +108,7 @@ section.home {
   section.home article div img {
     width: 100%;
     max-width: 800px;
+
   }
   .Homelist {
     text-decoration: none;
