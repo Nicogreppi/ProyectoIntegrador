@@ -12,7 +12,7 @@ window.onload = function(){
   var id = searchParams.get("idGenero")
   var key = '2816f7e0d88c5c7abbd4003375fc50fe'
   var urlImg = "https://image.tmdb.org/t/p/original"
-  var urlDetalle = "pagina5.html"
+  var urlDetalle = "detalles(1).html"
   //Pelis
   if(searchParams.has("idGenero")){
 

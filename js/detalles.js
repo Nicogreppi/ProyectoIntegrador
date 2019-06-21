@@ -4,7 +4,7 @@ window.addEventListener("load", function(){
   var idPelicula = urlSearchParams.get('idPelicula')
   console.log(idPelicula);
 
-  var API_KEY = "928ad4dee3a02646fa1725b8bcaa2a96"
+  var API_KEY = "2816f7e0d88c5c7abbd4003375fc50fe"
   var url = "https://api.themoviedb.org/3/movie/"+idPelicula+"?api_key="+API_KEY
   fetch(url)
     .then(function(response){
@@ -24,6 +24,7 @@ window.addEventListener("load", function(){
       li +=   "<p>"+objetoLiteralRespuesta.overview+"</p>"
             li +=   "<p>"+objetoLiteralRespuesta.original_language+"</p>"
             li +=   "<p>"+objetoLiteralRespuesta.release_date+"</p>"
+            li +=   "<src>"+objetoLiteralRespuesta.id+"</src>"
       li += "</li>"
 
       ul.innerHTML += li
@@ -35,7 +36,7 @@ window.addEventListener("load", function(){
 
 })
 var idPelicula = new URLSearchParams (window.location.search).get("idPelicula")
-fetch ("https://api.themoviedb.org/3/movie/" + idPelicula + "?api_key=928ad4dee3a02646fa1725b8bcaa2a96&language=en-US&page=1")
+fetch ("https://api.themoviedb.org/3/movie/" + idPelicula + "?api_key=2816f7e0d88c5c7abbd4003375fc50fe&language=en-US&page=1")
 .then(function(response) {
 return response.json();
 })
@@ -44,6 +45,7 @@ return response.json();
 var detallesPeliculas = information
 console.log(detallesPeliculas);
 var id = detallesPeliculas.id
+var arrayDeGeneros = detallesPeliculas.genres
 document.querySelector("section iframe").src += key
 })
 .catch(function(error) {
