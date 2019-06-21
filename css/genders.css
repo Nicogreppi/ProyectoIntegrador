@@ -9,7 +9,19 @@ body {
   width: 100%;
   font-family: Russo One;
   font-size: 1rem;
-background-color: #151515;
+  background-color: white;
+}
+
+section {
+  width: 30%;
+}
+ul {
+  text-align: center;
+
+}
+a {
+  text-decoration: none;
+  color: red;
 }
 nav div.left {
   width: 50%;
