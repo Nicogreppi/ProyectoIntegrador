@@ -3,31 +3,43 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Login </title>
-       <link rel="stylesheet" href="css/login.css">
+    <title>Login |Nefli|</title>
+    <link rel="stylesheet" href="css/loginn2.css">
   </head>
   <body>
-    <H1> LOGIN </H1>
-                 <form class="" action="index.html" method="get">
-                     <p>
-                         <label for="name" id="name"></label>
-                         <input type="text" placeholder="Nombre de usuario" value="" name="nombre de usuario">
-                      </p>
-                      <p>
-                          <label for="email" id="email"></label>
-                          <input type="email" placeholder="Email" value="" name="Email">
-                       </p>
-                       <p>
-                           <label for="password" id="password"></label>
-                           <input type="password" placeholder="Contraseña" value="" name="password">
-                       </p>
-                 <p>
-                   </form>
-                    <form class="" action="index.html" method="post">
-    <button type="submit" name="button"> Aceptar </button>
-    <button type="reset" name="button"> Cancelar </button>
-    </p>
-     </form>
-  </body>
+<div class="contenedor-form">
+                <div class="toggle">
+             <span>Create an account</span>
+                </div>
+
+             <div class="formulario">
+               <h2>Sing In</h2>
+                 <form action="index.html" method="post">
+                   <input type="text" name="User" placeholder="User" value=""required>
+                   <input type="password" name="Password" placeholder="Password" value="" required>
+                   <input type="submit" value="Sing In">
+               </form>
+             </div>
+
+             <div class="formulario">
+               <h2>Create an account</h2>
+                 <form action="index.html" method="post">
+                   <input type="text" name="User" placeholder="User" value=""required>
+                   <input type="password" name="Password" placeholder="Password" value="" required>
+                   <input type="email" name="" placeholder="Email" value="" required>
+                   <input type="text" name="" placeholder="Phone" value="" required>
+                   <input type="submit" value="Sing In">
+               </form>
+             </div>
+             <div id="forgot" class="#" >
+               <a href="#">Forgot your password?</a>
+             </div>
+</div>
+</body>
+<script src="jquery-3.1.1.min.js">
+
+</script>
+<scriptsr src="loginn.js">
+
+</script>
 </html>
-<script type="text/javascript" src="detalles.js"></script>
