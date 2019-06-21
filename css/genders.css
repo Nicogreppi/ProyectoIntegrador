@@ -88,6 +88,7 @@ main.main {
 }
 section {
   width: 100%;
+  top: 150px;
 }
 section.home {
   text-align: center;
@@ -120,3 +121,6 @@ section.home {
 }
 349.875px
 233.25px
+section ul li h2{
+  top: 100px;
+}

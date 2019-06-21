@@ -34,3 +34,18 @@ window.addEventListener("load", function(){
     })
 
 })
+var idPelicula = new URLSearchParams (window.location.search).get("idPelicula")
+fetch ("https://api.themoviedb.org/3/movie/" + idPelicula + "?api_key=928ad4dee3a02646fa1725b8bcaa2a96&language=en-US&page=1")
+.then(function(response) {
+return response.json();
+})
+.then(function(information) {
+  console.log(information);
+var detallesPeliculas = information
+console.log(detallesPeliculas);
+var id = detallesPeliculas.id
+document.querySelector("section iframe").src += key
+})
+.catch(function(error) {
+console.log("There was an error: " + error);
+})
