@@ -3,35 +3,38 @@
   <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Genders</title>
+      <title>My List</title>
       <link rel="stylesheet" href="css/genders.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   </head>
   <body>
     <div class="access-allowed">
-      <header>
-        <nav>
-          <a href="index.html"><img src="NEFLI.LOGO.png" alt="" class="nefli"></a>
-          <ul class="ul-menu">
-            <li class="li-menu"><a class="color-black" href="index.html">Home</a></li>
-            <li class="li-menu"><a class="color-black" href="Genders.html">Gender</a></li>
-            <li class="li-menu"><a class="color-black" href="Trailers.html">Trailers</a></li>
-            <li class="li-menu"><a class="color-black" href="MyList.html">My list</a></li>
-          </ul>
-        </nav>
-      </header>
-      <main class="main">
-        <section id="home" class="home">
-          <ul>
-            
-          </ul>
-        </section>
-      </main>
-    </div>
-    <div class="access-denied">
-      <h2>Access denied</h2>
-    </div>
+        <header>
+            <nav>
+              <div class="left">
+                <img src="NEFLI.LOGO.png" alt="" class="nefli" >
+                <form class="buscador" action="busqueda.html" method="get">
+                  <input type="search" name="search" class="buscar" placeholder="What are you looking for?" value="">
+                  <button type="submit" class="buscar">Buscar</button>
+                </form>
+              </div>
+              <div class="">
+                <button type="button" class="logIn" name="button"><a href="login.html"><b>Log In</b></a></button>
+                <ul class="ul-menu">
+                  <li class="li-menu"><a class="color-black" href="index.html">Home</a></li>
+                  <li class="li-menu"><a class="color-black" href="Genders.html">Gender</a></li>
+                  <li class="li-menu"><a class="color-black" href="Trailers.html">Trailers</a></li>
+                  <li class="li-menu"><a class="color-black" href="MyList.html">My list</a></li>
+                </ul>
+              </div>
+            </nav>
+        </header>
+      </div>
+      <div class="access-denied">
+          <h2>Access denied</h2>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
-  <script src="busqueda.js">
-
-  </script>
 </html>

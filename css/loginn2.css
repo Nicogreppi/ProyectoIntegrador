@@ -117,3 +117,8 @@ display: none;
   display: block;
 
 }
+
+div form p{
+  color: white;
+  font-family: Arial;
+}

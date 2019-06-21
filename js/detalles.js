@@ -22,6 +22,8 @@ window.addEventListener("load", function(){
       li +=   "<p>"+objetoLiteralRespuesta.title+"</p>"
       li +=   "<img src='"+urlImg + objetoLiteralRespuesta.poster_path+"' style='width:300px;'>"
       li +=   "<p>"+objetoLiteralRespuesta.overview+"</p>"
+            li +=   "<p>"+objetoLiteralRespuesta.original_language+"</p>"
+            li +=   "<p>"+objetoLiteralRespuesta.release_date+"</p>"
       li += "</li>"
 
       ul.innerHTML += li

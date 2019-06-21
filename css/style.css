@@ -74,6 +74,7 @@ header {
   height: 80px;
   top: 0.5px;
   border: 2px solid red;
+  z-index: 2;
 }
 
 
@@ -107,6 +108,7 @@ main.main {
 
 section {
   width: 100%;
+  top: 100px;
 }
 
 section.home {
@@ -137,9 +139,13 @@ section.home {
     text-transform: uppercase;
     font-size: 1.5rem;
     text-decoration: underline;
+    position:relative;
   }
 
 .nefli{
   width: 210px;
   height: 65px;
+}
+h2.homelist{
+  top: 1000px;
 }
