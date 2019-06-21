@@ -30,7 +30,7 @@ window.onload = function(){
 
           li = '<li>'
           li += "<a href='"+urlGenero+"?idGenero="+genero[i].id+"'>"
-          li += '<h1>' + genero[i].name + '</h1>'
+          li += '<h2>' + genero[i].name + '</h2>'
           li += "</a>"
           li += '</li>'
           ul.innerHTML += li
