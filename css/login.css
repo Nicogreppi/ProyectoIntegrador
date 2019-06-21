@@ -1,11 +1,32 @@
 body{
   background-color: #151515;
+  position: absolute;
+  top: 120px;
+  left: 550px;
 }
 
 h1{
   color: red;
+  font-size: 40px;
+  font-family: fantasy;
+
 }
 
+form button{
+  background-color: black;
+border-color: black;
+color: white;
+width: 85px;
+}
+
+input{
+  background-color: black;
+  border-color: black;
+  color: white;
+  width: 170px;
+  height: 20px;
+  border: n;
+}
 
 form p {
   color: red;
