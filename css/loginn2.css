@@ -1,7 +1,119 @@
 *{
   margin: 0;
   padding: 0;
+  -webkit- box-sizing: border-box;
+  -moz- box-sizing: border-box;
   box-sizing: border-box;
-  box-sizing: border-box;
-  box-sizing: border-box; 
+}
+
+body{
+  background-color: #151515;
+background-size: cover;
+font-family: Arial;
+
+}
+
+.contenedor-form{
+  color: white;
+  position: relative;
+background: rgba(247, 9, 9, 0.7);
+width: 100%;
+max-width: 500px;
+margin: 48px auto;
+border-radius: 5px;
+
+padding: 40px;
+}
+
+
+.contenedor-form .toggle {
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  width: 100px;
+  height: 30px;
+  font-size: 12px;
+  line-height: 25px;
+  text-align: center;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  transition: all 0.35s ease;
+  cursor: pointer;
+ }
+
+.contenedor-form .toggle span {
+  letter-spacing: 0px;
+}
+
+.contenedor-form .toggle:hover {
+  border-top: 2px solid #ef827f;
+  border-bottom: 2px solid #ef827f;
+}
+
+
+.contenedor-form h2{
+  margin: 0 0 28px 0;
+  font-size: 20px;
+  font-weight:400;
+  line-height: 1;
+}
+
+
+.contenedor-form input[type="text"],
+.contenedor-form input[type="email"],
+.contenedor-form input[type="password"]{
+  outline: none;
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  color: black;
+  border: none;
+  border-radius: 2px;
+  border-bottom: 4px solid black;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0 0 20px 0;
+}
+
+
+.contenedor-form input[type="text"]:focus,
+.contenedor-form input[type="email"]:focus,
+.contenedor-form input[type="password"]:focus {
+border-bottom: 4px solid #ef827f;
+transition: all 0.35s ease;
+}
+
+
+.contenedor-form input[type="submit"]{
+  background: black;
+  color: white ;
+  border: none;
+  width: 100%;
+  padding: 10px 0;
+  font-weight: normal;
+  font-family: Arial;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.35s ease;
+}
+
+
+.contenedor-form input{
+  background: white;
+}
+
+
+
+
+
+.contenedor-form .formulario {
+padding: 40px;
+display: none;
+}
+
+
+.contenedor-form .formulario:nth-child(2) {
+  display: block;
+
 }
