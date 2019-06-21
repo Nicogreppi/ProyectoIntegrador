@@ -118,5 +118,11 @@ section.home {
   width: 210px;
   height: 65px;
 }
-349.875px
-233.25px
+img.descarga {
+  margin-top: 10px;
+}
+div.detalles {
+  border: 5px solid black;
+  width: 50%;
+  margin-top: 90px;
+}

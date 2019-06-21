@@ -117,6 +117,10 @@ section.home {
   width: 100%;
 }
 
+img.descarga {
+  margin-top: 10px;
+}
+
 /* 1) POSICIONAMIENTO */
   section.home article.img-container {
     height: 100px;

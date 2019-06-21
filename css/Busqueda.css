@@ -148,7 +148,9 @@ a {
 a:hover {
   text-decoration: underline;
 }
-
+img.descarga {
+  margin-top: 10px;
+}
 img {
   text-align: center;
 }

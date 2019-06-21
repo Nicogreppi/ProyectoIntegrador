@@ -31,6 +31,9 @@ nav div form {
 nav div form input.buscar {
   border: 1px solid black;
 }
+img.descarga {
+  margin-top: 10px;
+}
 div button a {
   color: white;
   text-decoration: none;
